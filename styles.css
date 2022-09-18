@@ -1,0 +1,71 @@
+:root {
+    --orange: #f4854a;
+    --green: #22afa6;
+    --blue: #1175bc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border-radius: 25px;
+}
+
+nav ul {
+    margin: auto;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 1rem;
+    color: white;
+}
+
+#signup {
+    background-color: var(--orange);
+}
+
+#availability {
+    background-color: var(--green);
+}
+
+#paybill {
+    background-color: var(--blue);
+}
+
+.numbers {
+    height: 200px;
+}
+
+.csr {
+    color: var(--orange);
+}
+
+.csrnum {
+    color: var(--blue);
+}
