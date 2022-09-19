@@ -10,40 +10,46 @@
 }
 
 html, body {
-    font-family: Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 14px;
     width: 100%;
     height: auto;
     background-color: white;
 }
 
-nav {
+header {
     display: flex;
     flex-wrap: wrap;
-    height: 200px;
+    height: 150px;
     background-color: white;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-container {
+#logo {
+    padding-left: 30px;
+}
+
+.header-container {
     display: inline-block;
     padding: 0;
     margin: 0;
     border-radius: 25px;
 }
 
-nav ul {
+header ul {
     margin: auto;
     padding: 0;
 }
 
-nav ul li {
+ul li {
     display: inline-flex;
     text-decoration: none;
     list-style-type: none;
     padding: 1rem;
     color: white;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 #signup {
@@ -59,7 +65,13 @@ nav ul li {
 }
 
 .numbers {
-    height: 200px;
+    height: 120px;
+    width: 20%;
+}
+
+.numbers h5 {
+    padding: 5px;
+    display: inline-block;
 }
 
 .csr {
@@ -68,4 +80,14 @@ nav ul li {
 
 .csrnum {
     color: var(--blue);
+}
+
+/* NAV section */
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    background-color: var(--blue);
 }
