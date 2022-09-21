@@ -30,8 +30,12 @@ header {
     padding-left: 30px;
 }
 
-#header-buttons ul {
+#header-buttons {
     border-radius: 25px;
+    margin: 0;
+    padding: 0;
+    row-gap: 0;
+    overflow: hidden;
 }
 
 ul li {
@@ -46,19 +50,16 @@ ul li {
 
 #signup {
     background-color: var(--orange);
-    border: solid yellow 4px;
 }
 
 #availability {
     background-color: var(--green);
-    border: solid yellow 4px;
     margin-right: 0px;
 }
 
 #paybill {
     background-color: var(--blue);
     margin-left: 0px;
-    border: solid yellow 4px;
 }
 
 .numbers {
@@ -94,6 +95,7 @@ nav {
 main {
     background-color: var(--orange);
     height: fit-content;
+    padding-top: 20px;
 }
 
 .main-container {
@@ -101,6 +103,7 @@ main {
     justify-content: space-around;
     background-color: white;
     margin: 100px;
+    flex-wrap: wrap;
 }
 
 main h2 {
@@ -109,4 +112,6 @@ main h2 {
     font-size: 4rem;
     text-transform: uppercase;
     text-align: center;
+    padding-bottom: 20px;
+    width: 100%;
 }
