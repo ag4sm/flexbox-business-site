@@ -130,13 +130,17 @@ footer {
     width: 90%;
 }
 
+footer h4 {
+    line-height: 0.4em;
+}
+
 .material-icons {
-    padding: 5px;
+    padding: 15px;
     display: inline-block;
 }
 
 @media only screen and (max-width: 795px) {
     footer {
-        display:none;
+        flex-flow: column;
     }
 }
